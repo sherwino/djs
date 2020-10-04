@@ -248,6 +248,7 @@ h5 a,
 h6 a {
   color: inherit;
   text-decoration: none;
+	text-align: center;
 }
 
 h2 {
@@ -259,7 +260,7 @@ h3 {
 }
 
 a {
-  color: #fd4e00;
+  color: #ff4700;
   text-decoration: underline;
 }
 
@@ -452,6 +453,7 @@ table {
 }
 
 .row > .col-12 {
+	padding-top: 0px;
   width: 100%;
 }
 
@@ -2115,7 +2117,7 @@ ul.social li a.fa-google-plus:hover {
 .icon.featured {
   position: relative;
   display: inline-block;
-  background-color: #ff4700;
+  background-color: #333333;
   width: 9em;
   padding: 1.75em 0 0.75em 0;
   border-top-left-radius: 5px;
@@ -2135,17 +2137,17 @@ ul.social li a.fa-google-plus:hover {
   position: absolute;
   bottom: -1.95em;
   left: 0;
-  border-top: solid 2em #ff4700;
+  border-top: solid 2em #333333;
   border-left: solid 4.5em transparent;
   border-right: solid 4.5em transparent;
 }
 
 .icon.featured.alt {
-  background-color: #333333;
+  background-color: #ff4700;
 }
 
 .icon.featured.alt:after {
-  border-top-color: #333333;
+  border-top-color: #ff4700;
 }
 
 .icon.featured.alt2 {
@@ -2278,7 +2280,7 @@ ul.social li a.fa-google-plus:hover {
 #banner {
   background: #cce8f4 url("../../images/pic01.jpg");
   background-position: center center;
-  background-size: auto 100%;
+  background-size:  cover;
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
@@ -2287,7 +2289,6 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #banner header {
-  background-color: #333333;
   display: inline-block;
   padding: 2.5em 5em;
   border-radius: 5px;
@@ -2412,7 +2413,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #footer a {
-  color: #c5c4c4;
+  color: #fff;
 }
 
 #footer h2,
@@ -2422,7 +2423,7 @@ ul.social li a.fa-google-plus:hover {
 #footer h6,
 #footer strong,
 #footer b {
-  color: #fff;
+  color: #ff4700;
 }
 
 #footer h2 a,
@@ -3036,7 +3037,7 @@ ul.social li a.fa-google-plus:hover {
 /* WINO ADDITIONS */
 
 .page-section {
-  padding: 6rem 0;
+  padding-top: 50px;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -3079,7 +3080,7 @@ button.bg-light:focus {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(255,71,0,0.90);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -3126,6 +3127,7 @@ button.bg-light:focus {
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
+	color: ff4700;
   font-size: 3rem;
   line-height: 3rem;
 }
@@ -3160,6 +3162,7 @@ button.bg-light:focus {
 
 .text-uppercase {
   text-transform: uppercase !important;
+	text-align: center;
 }
 
 .modal-open {
